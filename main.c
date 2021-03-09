@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "filelib.h"
+#include "Tokens/filelib.h"
 
 int streq(char* str1, char* str2, int size)
 {
