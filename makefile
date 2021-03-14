@@ -9,8 +9,12 @@ filelib.o: Tokens/filelib.c
 main.o: main.c
 	$(CC) -c main.c -o main.o
 
+
 clean:
 	rm *.o
+
+configure:
+	git clone https://github.com/LoZack19/Tokens
 
 install:
 	sudo install delln /usr/bin
